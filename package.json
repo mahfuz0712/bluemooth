@@ -1,0 +1,16 @@
+{
+  "name": "bluemooth",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "build-linux": "pkg src/index.js --targets node16-linux-x64 --output executables/bluemooth"
+  },
+  "keywords": [],
+  "author": "Mohammad Mahfuz Rahman",
+  "license": "ISC",
+  "description": "bluetooth hacking utility tool",
+  "dependencies": {
+    "cli-table3": "^0.6.5",
+    "commander": "^13.0.0"
+  }
+}
